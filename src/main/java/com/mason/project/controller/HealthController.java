@@ -47,8 +47,4 @@ public class HealthController {
         return introspectionService.getStat();
     }
 
-    @GetMapping(path = "allUrl",produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public AllUrlResponse getAllUrl() {
-        return introspectionService.getAllUrl();
-    }
 }
